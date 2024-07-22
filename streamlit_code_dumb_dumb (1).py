@@ -25,7 +25,7 @@ def main():
     st.title('0 = Clear , 1 = Clouds, 2 = Rain, 3 = Thunderstorm')
 
     # Add user input components for 5 features
-    temp = st.slider('dt', min_value=0.0, max_value=50.0, value=0.01)
+    dt = st.slider('dt', min_value=0.0, max_value=50.0, value=0.01)
     temp = st.slider('temp', min_value=0.0, max_value=50.0, value=0.01)
     temp_min = st.slider('temp_min', min_value=0.0, max_value=50.0, value=0.01)
     temp_max = st.slider('temp_max', min_value=0.0, max_value=50.0, value=0.01)
