@@ -10,8 +10,8 @@ Original file is located at
 
 
 import streamlit as st
-import joblib
 import numpy as np
+import joblib
 
 # Load the machine learning model
 model = joblib.load('decision_tree.sav')
